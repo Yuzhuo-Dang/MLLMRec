@@ -5,8 +5,8 @@
 - The following preprocessing steps can be quite tedious. Please post issues if you cannot run the scripts.
 
 - datasets: [Baby/Sports/Clothing](http://jmcauley.ucsd.edu/data/amazon/links.html) datasets from Amazon  
--- Rating file in `Files/Small subsets for experimentation`  
--- Meta files in `Per-category files`, [metadata], [image features]  
+-- Rating file in "`Files/Small subsets for experimentation`"  
+-- Meta files in "`Per-category files`", [metadata], [image features]  
 
 There has been an issue with the dataset site lately, 
 as it automatically redirects to an updated version of the dataset. 
@@ -28,7 +28,7 @@ Keep pressing `ESC` to stop the redirecting action.
 
 ## To facilitate the operation, we have placed the results we need after the above preprocessing in the "data" folder. Thus, you can skip the above four steps and start running directly from step 5.
 
-Due to the file size restrictions of the submission system, we only provide the preprocessed results on the baby dataset (i.e., `baby.inter` and `meta-baby.csv` in the "`data/baby`" folder). The results for the other two datasets have been uploaded to Google Drive. If our work is accepted, we will make the links public on GitHub.
+Due to the file size restrictions of the submission system, we only provide the preprocessed results on the baby dataset (i.e., "`baby.inter`" and "`meta-baby.csv`" in the "`data/baby`" folder). The results for the other two datasets have been uploaded to Google Drive. If our work is accepted, we will make the links public on GitHub.
 
 ## Step by step
 
@@ -40,4 +40,4 @@ Due to the file size restrictions of the submission system, we only provide the 
 
 ​	**step 8:** Encoding user preference - `run 7preference-encoder.ipynb`
 
-To help quickly test MLLMRec, we also provide the processed results on the Baby dataset (i.e., `image_text_feat.npy` and `user_preferences_feat.npy` in the "`data/baby`" folder) for directly running model training.
+To help quickly test MLLMRec, we also provide the processed results on the Baby dataset (i.e., "`image_text_feat.npy`" and "`user_preferences_feat.npy`" in the "`data/baby`" folder) for directly running model training.
