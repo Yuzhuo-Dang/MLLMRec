@@ -1,4 +1,6 @@
-# MLLMRec: Exploring the Potential of Multimodal Large Language Models in Recommender Systems
+# MLLMRec: Exploring the Potential of Multimodal Large Language Models for Multimudal Recommendation
+
+
 
 <div align=center>
 <img src=".\images\MLLMRec_log.svg" alt="log" width="80%" />
@@ -25,18 +27,18 @@ To help quickly test MLLMRec, we provide the processed Baby dataset the in the "
 
 1. **Reasoning Stage**
 
-   Run the files in the "`reasoning`" folder. Please refer to "`reasoning/README.md`" for the specific operation process.
+   Run the files in the "`reasoning`" folder. Please refer to `reasoning/README.md` for the specific operation process.
 
 2. **model training**
 
-   Enter the "`src`" folder and execute the following command:
+   Enter the `src` folder and execute the following command:
 
    ```
    cd ./src
    python main.py -m MLLMRec -d baby
    ```
 
-Other parameters can be set either through the command line or by using the configuration files located in "`src/configs/model/MLLMRec.yaml`" and "`src/configs/dataset/*.yaml`".
+Other parameters can be set either through the command line or by using the configuration files located in `src/configs/model/MLLMRec.yaml` and `src/configs/dataset/*.yaml`.
 
 ## Performance Comparison
 
