@@ -1,0 +1,35 @@
+#Baby
+feat_embed_dim: [64] # 16, 32, 64, 128, 256
+
+n_ii_layers: 1
+n_ui_layers: 2
+
+knn_k: 10
+knn_jac: [10] # 5, 10, 15, 20   10
+pure: [0.7] # 0.4, 0.5, 0.6, 0.7   0.7
+
+hyper_parameters: ["feat_embed_dim", "knn_jac", "pure"]
+
+# #Sports
+# feat_embed_dim: [64]
+
+# n_ii_layers: 1
+# n_ui_layers: 2
+
+# knn_k: 10
+# knn_jac: [10] # 5, 10, 15, 20   10
+# pure: [0.4] # 0.4, 0.5, 0.6, 0.7   0.4
+
+# hyper_parameters: ["feat_embed_dim", "knn_jac", "pure"]
+
+# #Clothing
+# feat_embed_dim: [64]
+
+# n_ii_layers: 1
+# n_ui_layers: 2
+
+# knn_k: 10
+# knn_jac: [15] # 5, 10, 15, 20   15
+# pure: [0.6] # 0.4, 0.5, 0.6, 0.7   0.6
+
+# hyper_parameters: ["feat_embed_dim", "knn_jac", "pure"]
